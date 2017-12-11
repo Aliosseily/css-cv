@@ -1,0 +1,176 @@
+body{
+  width: 1200px;
+  
+ 
+}
+
+.content{ margin :67px;
+overflow:hidden;}
+header{background:grey;
+}    
+
+#wrapper{ width: 80%; 
+  margin: auto ;}
+  
+figure{
+        position: absolute;
+        left: 400px;
+        top: 10px; }
+
+hgroup{padding: 10px 70px;
+       color:red;}
+
+
+section{
+        float:left;
+        width:49%;
+        
+} 
+
+h4{color:red;}        
+
+body{
+    font-family: sans-serif;
+    }
+
+h3{
+   border-bottom: 1px solid rgba(153, 153, 153, 0.61);
+  }
+h3:before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 0 6px 0 0;
+    border-radius: 7.5px;
+    background-color:red
+}
+
+  
+
+.experience-date-separator{color:red;}
+
+              
+
+
+.skill{
+text-align: left;
+padding-right: 30px;
+height: 30px;
+color:white;
+width: 92%; background-color:grey;
+ margin :2px;
+
+}
+  [data-skill="5"] span{
+  display: block;
+  background-color: red;
+  height: 30px;
+  width: 62%;
+
+}
+[data-skill="3"] span{
+  display: block;
+  background-color: red;
+  height: 30px;
+  width: 50%;
+}
+[data-skill="1"] span{
+  display: block;
+  background-color:red;
+  height: 30px;
+  width: 30%;}
+
+  [data-skill="9"] span{
+    display: block;
+    background-color: red;
+    height: 30px;
+    width: 95%;}
+
+    [data-skill="7"] span{
+      display: block;
+      background-color: red;
+      height: 30px;
+      width: 80%;}
+      .skills.skills-primary::before{
+        content:"Main";
+      }
+      .skills.skills-secondary::before{
+        content:"Others";
+      }
+      .skills.skills-secondary span {
+        box-shadow: inset 0px 35px 0px 0px #a59c9c62
+      }
+  .contacts{
+
+    position: absolute;
+    top: 35px;
+    right: px;
+    width: 358px;
+    color: orangered
+    
+  
+    }
+    dl {
+        width: 150%;
+          
+        padding: 0;
+        margin: 0;
+      }
+      dt {
+        float: left;
+        width: 21%;
+        background:orangered;
+        color:white;
+        
+      }
+      dd {
+        float: left;
+        width: 70%;
+        background:black;
+        padding: 0;
+        margin: 0;
+        color:orangered;
+      }
+      a:link{text-decoration: none;
+             color: orangered;
+             
+           }
+           @media screen and (max-width:1018px) {
+           .contacts {
+             position: absolute;
+              left:200px;
+              top:2000px;
+            }} @media screen and (max-width:704px) {
+              figure {
+              position: relative;
+              left: 70px;
+              top: -15px;  }}
+              @media screen and (max-width:1018px) {
+                #competencies{
+                  position:absolute;
+                  top:540px;
+                  left:200px;
+                  width:390px;
+                  
+                }
+              }
+
+              @media screen and (max-width:1018px) {
+                #experiences{ position:absolute;
+                  top:830px;
+                  left:200px;
+                  width:390px;}}
+              
+              @media screen and (max-width:1018px) {
+                        #education{ position:absolute;
+                          top:1350px;
+                          left:200px;
+                          width:390px;}}
+                    
+              @media screen and (max-width:1018px) {
+                    #hobbies{ position:absolute;
+                      top:1870px;
+                      left:200px;
+                      width:390px;}}
+                     
