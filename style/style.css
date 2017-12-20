@@ -1,6 +1,7 @@
+
 body{
   width: 1200px;
-  
+  padding:40px;
  
 }
 
@@ -14,8 +15,8 @@ header{background:grey;
   
 figure{
         position: absolute;
-        left: 400px;
-        top: 10px; }
+        left: 450px;
+        top: 50px; }
 
 hgroup{padding: 10px 70px;
        color:red;}
@@ -104,9 +105,9 @@ width: 92%; background-color:grey;
   .contacts{
 
     position: absolute;
-    top: 35px;
-    right: px;
-    width: 358px;
+    top: 80px;
+    right: 348px;
+    width: 340px;
     color: orangered
     
   
@@ -173,4 +174,3 @@ width: 92%; background-color:grey;
                       top:1870px;
                       left:200px;
                       width:390px;}}
-                     
